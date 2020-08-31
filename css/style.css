@@ -11,7 +11,11 @@ body{
 }
 
 .navbar-container{
+    top: 0;
     background-color: #272B38;
+    position: sticky;
+    z-index: 2;
+    
 }
 
 .about-container{
@@ -20,6 +24,14 @@ body{
 
 .container-education{
     background-color: #EDECEE;
+}
+
+.redtype-color-bg{
+    background-color:  #f77a76;
+}
+
+.redtype-color-bg:hover{
+    color: black!important;
 }
 
 .redtype-color{
@@ -33,4 +45,46 @@ body{
     border: 2px;
     border-radius: 50%;
     align-content: center;
+}
+
+.container-projects{
+    background-color: #2DB1E1;
+}
+
+.img-border-15{
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.img-border-0{
+    border: 2px solid rgba(34,56,110,.3);
+    padding: 20px;
+}
+
+.container-form{
+    background-color: #474C5E;
+}
+
+.inner-form{
+    background-color: #535970;
+}
+
+.footer{
+    background-color: #248FB5;
+}
+
+.circleI{
+    background-color: white;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    font-size: 40px;
+    text-align: center;
+    color: #248FB5;
+}
+
+.circleI:hover{
+    background-color:#535970;
+    
 }
